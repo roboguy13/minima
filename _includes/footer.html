@@ -30,7 +30,7 @@
                 data-name2={{ site.author.email2 }}
                 data-domain={{ site.author.emaildomain }}
                 data-tld={{ site.author.emailtld }}
-                onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;"></a>
+                onclick="window.location.href = 'mailto:' + this.dataset.name1 + this.dataset.name2 + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;"></a>
             </li>
           {%- endif %}
         </ul>
